@@ -36,7 +36,7 @@ You can integrate the Docker image of this application inside a `docker-compose.
 ```yaml
 
  it_test_suite:
-    image: doanduyhai/killrvideo_it:v2
+    image: doanduyhai/killrvideo_it:latest
     ports:
     # Zeppelin WEB UI port
     - 8080:8080
