@@ -1,0 +1,179 @@
+{
+  "paragraphs": [
+    {
+      "title": "Instructions ",
+      "text": "%angular\n\n\u003ch4\u003e1. Select the desired scenario(s) then click on the button to relaunch the test suite\u003c/h4\u003e\n\n\u003cform class\u003d\"form-inline\"\u003e\n  \u003cdiv class\u003d\"form-group\"\u003e\n    \u003clabel for\u003d\"scenarioInput\"\u003eScenario(s)\u003c/label\u003e\n    \u003cselect class\u003d\"form-control\" id\u003d\"scenarioInput\" ng-model\u003d\"selectedScenario\"\u003e\n      \u003coption value\u003d\"\"\u003e---Please select---\u003c/option\u003e\n      \u003coption value\u003d\"@user_scenarios\"\u003eAll Scenarios\u003c/option\u003e\n      \u003coption value\u003d\"@user_scenarios -t @user_scenarios_only\"\u003eUser Management Service Test Suite\u003c/option\u003e      \n      \u003coption value\u003d\"@user_scenarios -t @video_scenarios -t @video_scenarios_only\"\u003eVideo Catalog Service Test Suite\u003c/option\u003e\n      \u003coption value\u003d\"@comments_scenarios\"\u003eComments Service Test Suite\u003c/option\u003e\n      \u003coption value\u003d\"@ratings_scenarios\"\u003eRatings Service Test Suite\u003c/option\u003e\n      \u003coption value\u003d\"@stats_scenarios\"\u003eStatistics Service Test Suite\u003c/option\u003e\n      \u003coption value\u003d\"@search_scenarios\"\u003eSearch Service Test Suite\u003c/option\u003e      \n      \u003coption value\u003d\"@suggested_videos_scenarios\"\u003eSuggested Videos Service Test Suite\u003c/option\u003e\n    \u003c/select\u003e\n  \u003c/div\u003e \n  \u003cbutton type\u003d\"submit\" class\u003d\"btn btn-primary\" ng-click\u003d\"z.angularBind(\u0027selectedScenario\u0027,selectedScenario,\u002720161228-203818_6717303\u0027);z.runParagraph(\u002720161228-203818_6717303\u0027)\"\u003eRun the test suite\u003c/button\u003e\n\u003c/form\u003e\n\n\u003ch4\u003e2. Follow the test progression in the 2\u003csup\u003end\u003c/sup\u003e paragraph\u003c/h4\u003e\n\n\u003ch4\u003e3. See the test results in the 3\u003csup\u003erd\u003c/sup\u003e paragraph\u003c/h4\u003e",
+      "dateUpdated": "Jun 15, 2017 10:20:14 PM",
+      "config": {
+        "tableHide": false,
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/undefined",
+        "editorHide": true,
+        "title": true,
+        "results": [
+          {
+            "graph": {
+              "mode": "table",
+              "height": 300.0,
+              "optionOpen": false,
+              "keys": [],
+              "values": [],
+              "groups": [],
+              "scatter": {}
+            }
+          }
+        ],
+        "enabled": true,
+        "editorSetting": {
+          "editOnDblClick": true
+        }
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "ANGULAR",
+            "data": "\u003ch4\u003e1. Select the desired scenario(s) then click on the button to relaunch the test suite\u003c/h4\u003e\n\n\u003cform class\u003d\"form-inline\"\u003e\n  \u003cdiv class\u003d\"form-group\"\u003e\n    \u003clabel for\u003d\"scenarioInput\"\u003eScenario(s)\u003c/label\u003e\n    \u003cselect class\u003d\"form-control\" id\u003d\"scenarioInput\" ng-model\u003d\"selectedScenario\"\u003e\n      \u003coption value\u003d\"\"\u003e---Please select---\u003c/option\u003e\n      \u003coption value\u003d\"@user_scenarios\"\u003eAll Scenarios\u003c/option\u003e\n      \u003coption value\u003d\"@user_scenarios -t @user_scenarios_only\"\u003eUser Management Service Test Suite\u003c/option\u003e      \n      \u003coption value\u003d\"@user_scenarios -t @video_scenarios -t @video_scenarios_only\"\u003eVideo Catalog Service Test Suite\u003c/option\u003e\n      \u003coption value\u003d\"@comments_scenarios\"\u003eComments Service Test Suite\u003c/option\u003e\n      \u003coption value\u003d\"@ratings_scenarios\"\u003eRatings Service Test Suite\u003c/option\u003e\n      \u003coption value\u003d\"@stats_scenarios\"\u003eStatistics Service Test Suite\u003c/option\u003e\n      \u003coption value\u003d\"@search_scenarios\"\u003eSearch Service Test Suite\u003c/option\u003e      \n      \u003coption value\u003d\"@suggested_videos_scenarios\"\u003eSuggested Videos Service Test Suite\u003c/option\u003e\n    \u003c/select\u003e\n  \u003c/div\u003e \n  \u003cbutton type\u003d\"submit\" class\u003d\"btn btn-primary\" ng-click\u003d\"z.angularBind(\u0027selectedScenario\u0027,selectedScenario,\u002720161228-203818_6717303\u0027);z.runParagraph(\u002720161228-203818_6717303\u0027)\"\u003eRun the test suite\u003c/button\u003e\n\u003c/form\u003e\n\n\u003ch4\u003e2. Follow the test progression in the 2\u003csup\u003end\u003c/sup\u003e paragraph\u003c/h4\u003e\n\n\u003ch4\u003e3. See the test results in the 3\u003csup\u003erd\u003c/sup\u003e paragraph\u003c/h4\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1497528089436_-301445619",
+      "id": "20161228-204842_215554349",
+      "dateCreated": "Jun 15, 2017 2:01:29 PM",
+      "status": "READY",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Executing the selected test suite",
+      "text": "%sh\ncd /home/KillrVideoIT\nmvn test -Dcucumber.options\u003d\"-t ${selectedScenario}\" \u0026\u003e /dev/null\ncurl \"http://localhost:8123/index.html\" \u0026\u003e/dev/null\ncurl --data \"\" http://localhost:8080/api/notebook/job/2CN3BAD83/20161228-203704_1274542162  \u0026\u003e /dev/null\n",
+      "user": "anonymous",
+      "dateUpdated": "Jun 18, 2017 4:51:05 PM",
+      "config": {
+        "tableHide": false,
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/sh",
+        "editorHide": false,
+        "title": true,
+        "results": [],
+        "enabled": true,
+        "editorSetting": {
+          "language": "sh",
+          "editOnDblClick": false
+        }
+      },
+      "settings": {
+        "params": {
+          "selectedScenario": ""
+        },
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "bash: line 0: cd: /home/KillrVideoIT: No such file or directory\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1497528089441_-315681329",
+      "id": "20161228-203818_6717303",
+      "dateCreated": "Jun 15, 2017 2:01:29 PM",
+      "dateStarted": "Jun 18, 2017 4:51:05 PM",
+      "dateFinished": "Jun 18, 2017 4:51:08 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Cucumber Test suite report",
+      "text": "%angular\n\n\n \u003ciframe src\u003d\"http://localhost:8123/index.html\"  width\u003d\"99%\" height\u003d\"700px\"\u003e\u003c/iframe\u003e\n\n\n",
+      "user": "anonymous",
+      "dateUpdated": "Jun 15, 2017 3:19:50 PM",
+      "config": {
+        "tableHide": false,
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/undefined",
+        "editorHide": false,
+        "title": true,
+        "results": [
+          {
+            "graph": {
+              "mode": "table",
+              "height": 300.0,
+              "optionOpen": false,
+              "keys": [],
+              "values": [],
+              "groups": [],
+              "scatter": {}
+            }
+          }
+        ],
+        "enabled": true,
+        "editorSetting": {
+          "editOnDblClick": true
+        }
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "ANGULAR",
+            "data": "\u003ciframe src\u003d\"http://localhost:8123/index.html\"  width\u003d\"99%\" height\u003d\"700px\"\u003e\u003c/iframe\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1497528089442_-314527082",
+      "id": "20161228-203704_1274542162",
+      "dateCreated": "Jun 15, 2017 2:01:29 PM",
+      "dateStarted": "Jun 18, 2017 4:51:08 PM",
+      "dateFinished": "Jun 18, 2017 4:51:09 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%sh\n",
+      "user": "anonymous",
+      "dateUpdated": "Jun 15, 2017 2:58:00 PM",
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1497531480882_1047906523",
+      "id": "20170615-145800_1298562000",
+      "dateCreated": "Jun 15, 2017 2:58:00 PM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    }
+  ],
+  "name": "KillrVideo Integration Test Suite",
+  "id": "2CN3BAD83",
+  "angularObjects": {
+    "2CNAAWMXN:shared_process": [],
+    "2CMNDVQDU:shared_process": [],
+    "2CKKTWSPJ:shared_process": [],
+    "2CN8QBE1R:shared_process": [
+      {
+        "name": "selectedScenario",
+        "object": "@user_scenarios -t @user_scenarios_only",
+        "noteId": "2CN3BAD83",
+        "paragraphId": "20161228-203818_6717303"
+      }
+    ]
+  },
+  "config": {},
+  "info": {}
+}
